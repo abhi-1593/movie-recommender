@@ -18,6 +18,7 @@
 # install langchain-google-genai
 
 import streamlit as st
+import langchain
 from langchain import PromptTemplate, LLMChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 
