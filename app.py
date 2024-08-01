@@ -3,7 +3,12 @@
 # .\.venv\Scripts\activate
 # pip install streamlit langchain google-generativeai langchain-google-genai 
 # running the project  'streamlit run app.py'
-
+# git init
+# pip freeze > requirements.text
+# git add .
+# git commit -m "first commit" (if email not configed "git config --global user.email "abhi.1593@gmail.com"")
+# git remote add origin https://github.com/abhi-1593/movie-recommender.git
+# git push -u origin main
 
 
 # created the virtual environment using python -m venv .venv
@@ -13,7 +18,6 @@
 # install langchain-google-genai
 
 import streamlit as st
-import langchain
 from langchain import PromptTemplate, LLMChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 
